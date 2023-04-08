@@ -1,0 +1,180 @@
+/* Write your CSS here */
+
+.header-main-container {
+  background-color: #ffffff;
+  border-bottom: 2px solid #dcdcdc;
+  min-height: 80px;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-items-container {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .header-items-container {
+    width: 88%;
+  }
+}
+
+.website-logo {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+}
+
+.hamburger-icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.hamburger-icon {
+  height: 20px;
+  width: 30px;
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger-icon {
+    height: 30px;
+    width: 40px;
+    margin-left: 10px;
+  }
+}
+
+.popup-content {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.popup-container-main {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-end;
+}
+
+.close-icon {
+  height: 25px;
+  width: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .close-icon {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+.popup-home-about-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 0px;
+}
+
+.popup-home-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.popup-home-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .popup-home-icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+}
+
+.popup-home-text {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .popup-home-text {
+    font-size: 32px;
+    margin-left: 10px;
+  }
+}
+
+.popup-about-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.popup-about-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .popup-about-icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+}
+
+.popup-about-text {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .popup-about-text {
+    font-size: 32px;
+    margin-left: 10px;
+  }
+}
+
+.link-item {
+  text-decoration: none;
+}
